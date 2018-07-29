@@ -1,0 +1,27 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "fable-splitter -c splitter.config.js -w",
+    "build": "fable-splitter -c splitter.config.js -p",
+    "server": "cd public && reload -b",
+    "publish": "gh-pages -d public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.0.11",
+    "marked": "^0.3.9",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "fable-splitter": "^0.1.20",
+    "gh-pages": "^1.1.0",
+    "reload": "^2.2.2"
+  }
+}
